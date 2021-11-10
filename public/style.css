@@ -1,0 +1,27 @@
+.card{
+    background-color: #2dfccf;
+}
+.card-header{
+    background-color: #0aebba;
+}
+.container{
+    padding: 3% 5%;
+}
+@media (min-width:900px) {
+    .container{
+        padding: 5% 25%;
+    }
+}
+ #checkform{
+    background: #ec0e49;
+    border: 2px solid #ec0e49;
+    color: white; 
+}
+ #checkform:hover{
+    background-color: #d1073d;
+    
+ }
+ label{
+     color:#1b00b1;
+ }
+ 
