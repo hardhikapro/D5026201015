@@ -94,7 +94,7 @@
                     <a href="praktikum2">Praktikum 2</a>
                     <a href="ets2021">ETS</a>
                     <a href="barronstranslate">Tugas PHP</a>
-                    <a href="greetings">Example Greetings</a>
+                    <a href="greetings">Contoh Greetings</a>
                 </div>
             </div>
         </div>
