@@ -86,15 +86,16 @@
                 </div>
 
                 <div class="links">
-                    <a href="hardhika_tugas_website.html.html">Tugas 1</a>
-                    <a href="hardhika_tugas_website.css.html">Tugas 2</a>
-                    <a href="bootstrap_hardhika.html.html">Tugas 3</a>
-                    <a href="hardhika_praktikum_cloning.html.html">Praktikum 1</a>
-                    <a href="tugas4">Tugas 4</a>
-                    <a href="praktikum2">Praktikum 2</a>
-                    <a href="ets2021">ETS</a>
-                    <a href="barronstranslate">Tugas PHP</a>
-                    <a href="greetings">Contoh Greetings</a>
+                    <a style="font-size : 11px" href="hardhika_tugas_website.html.html">Tugas 1</a>
+                    <a style="font-size : 11px" href="hardhika_tugas_website.css.html">Tugas 2</a>
+                    <a style="font-size : 11px" href="bootstrap_hardhika.html.html">Tugas 3</a>
+                    <a style="font-size : 11px" href="hardhika_praktikum_cloning.html.html">Praktikum 1</a>
+                    <a style="font-size : 11px" href="tugas4">Tugas 4</a>
+                    <a style="font-size : 11px" href="praktikum2">Praktikum 2</a>
+                    <a style="font-size : 11px" href="ets2021">ETS</a>
+                    <a style="font-size : 11px" href="barronstranslate">Tugas PHP</a>
+                    <a style="font-size : 11px" href="greetings">Contoh Greetings</a>
+                    <a style="font-size : 11px" href="/pegawai">Dashboard Pegawai</a>
                 </div>
             </div>
         </div>

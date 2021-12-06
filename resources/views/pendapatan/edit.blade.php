@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Tutorial Membuat CRUD Pada Laravel - www.malasngoding.com</title>
-</head>
-<body>
-
+@extends('layout.happy') 
+@section('Konten')
 	
 	<h3>Edit Pendapatan</h3>
 
@@ -27,6 +22,4 @@
 	</form>
 	@endforeach
 		
-
-</body>
-</html>
+@endsection
