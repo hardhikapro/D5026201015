@@ -3,13 +3,13 @@
 
 	<h3>Data Pegawai</h3>
  
-	<a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
+	<a class="btn btn-warning" href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
 	
 	<br/>
 	<br/>
  
-	<table border="1">
-		<tr>
+	<table class="table table-hover">
+		<tr class="table-warning">
 			<th>Nama</th>
 			<th>Jabatan</th>
 			<th>Umur</th>
@@ -18,10 +18,12 @@
 		</tr>
 		@foreach($pegawai as $p)
 		<tr>
+		<div class="table-secondary">
 			<td>{{ $p->pegawai_nama }}</td>
 			<td>{{ $p->pegawai_jabatan }}</td>
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
+			</div>
 			<td>
 				<a href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
 				|

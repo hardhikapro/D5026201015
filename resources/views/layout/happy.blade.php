@@ -47,6 +47,8 @@
         <link
         href="/css/style.css"
         rel="stylesheet">
+        <link href="/css/tambah.css"
+        rel="stylesheet">
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
@@ -105,6 +107,18 @@
     <a class="nav-link " href="/pendapatan">
       <i class="bi bi-grid"></i>
       <span>Pendapatan</span>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="">
+      <i class="bi bi-grid"></i>
+      <span>Tugas Minggu Depan</span>
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="">
+      <i class="bi bi-grid"></i>
+      <span>Praktikum</span>
     </a>
   </li><!-- End Dashboard Nav -->
 

@@ -3,13 +3,13 @@
 
 	<h3>Data Absen</h3>
 
-	<a href="/absen/tambah"> + Tambah Absen Baru</a>
+	<a class="btn btn-warning" href="/absen/tambah"> + Tambah Absen Baru</a>
 
 	<br/>
 	<br/>
 
-	<table border="1">
-		<tr>
+	<table class="table table-hover">
+		<tr class="table-warning">
 			<th>ID Pegawai</th>
 			<th>Tanggal</th>
 			<th>Status</th>
@@ -17,9 +17,11 @@
 		</tr>
 		@foreach($absen as $a)
 		<tr>
+			<div class="table-secondary">
 			<td>{{ $a->IDPegawai }}</td>
 			<td>{{ $a->Tanggal }}</td>
 			<td>{{ $a->Status }}</td>
+			</div>
 			<td>
 				<a href="/absen/edit/{{ $a->ID}}">Edit</a>
 				|
