@@ -50,17 +50,22 @@
                 </script>
             </div>
             
-                Status
-                <div class="row">
-                <label class="col-2" for="h">HADIR</label><br>
-                    <input class="col-1" type="radio" id="h" name="status" value="H">
-                    
+            <div class="row mt-3">
+                <label for="status" class="col-sm-3 control-label">Status</label>
+                <div class="col-1">:</div>
+                <div class="col-sm-8">
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="h">
+                            <input type="radio" id="h" name="status" value="H">
+                        HADIR</label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label" for="a">
+                            <input type="radio" id="a" name="status" value="A" checked="checked">
+                        TIDAK HADIR</label><br>
+                    </div>
                 </div>
-                <div class="row">
-                <label class="col-2" for="a">TIDAK HADIR</label><br>
-                    <input class="col-1" type="radio" id="a" name="status" value="A" checked="checked">
-                    
-                </div>
+            </div>
                 <input type="submit" class="btn btn-primary my-4 form-control" value="Simpan Data">
             
         </div>

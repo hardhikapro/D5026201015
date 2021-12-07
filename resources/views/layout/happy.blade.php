@@ -56,7 +56,7 @@
     <script
         src="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js">
     </script>
-    <title>Aplikasi Kepegawaian - @yield('title')</title>
+    <title>Aplikasi Kepegawaian - Hardhika Propitadewa @yield('title')</title>
   </head>
 
   <body id="page-top">
@@ -86,7 +86,7 @@
 <div style="color: #4154f1; font-size: 15px;" class="text-center mb-5">
     <h3 style="font-weight: 600;">Hardhika Propitadewa</h3>
     <h3 style="font-weight: 600;">5026201015</h3>
-    <img style="height: 150px; width: 150px" class="rounded-circle" src="fotobawagitar.jpg" alt="">
+    <img style="height: 150px; width: 150px" class="rounded-circle" src="/fotobawagitar.jpg" alt="">
 </div>
 
 <ul class="sidebar-nav" id="sidebar-nav">
