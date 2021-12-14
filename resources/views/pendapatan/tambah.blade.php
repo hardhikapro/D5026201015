@@ -13,15 +13,7 @@
                         Form Tambah Data Pendapatan Pegawai
                     </div>
                     <div class="card-body">
-                        <div class="row">
-                            <label for="namabarang" class="col-sm-3 col-form-label col-form-label-lg">ID
-                                </label>
-								<span class="col-sm-1">:</span>
-                            <div class="col-sm-8">
-                                <input type="number" class="form-control form-control-lg" id="namabarang"
-                                    placeholder="" name="ID" required="required">
-                            </div>
-                        </div>
+                       
                         <br>
                         <div class="row">
                             <label for="harga" class="col-sm-3 col-form-label col-form-label-lg">IDPegawai</label>

@@ -11,10 +11,13 @@ class AbsenController extends Controller
     public function index()
     {
     	// mengambil data dari table absen
-    	$absen = DB::table('absen')->get();
+    	// $absen = DB::table('absen')->get();
+		$absen = DB::table('absen')->join('pegawai', 'IDPegawai', '=', 'pegawai.pegawai_id')->select('absen.*', 'pegawai.pegawai_nama')->paginate(5);
+
 
     	// mengirim data absen ke view index
     	return view('absen.index',['absen' => $absen]);
+		
 
     }
 
@@ -80,4 +83,34 @@ public function hapus($id)
 	return redirect('/pegawai');
 }
 
+public function cari(Request $request)
+	{
+		// menangkap data pencarian
+		$cari = $request->cari;
+ 
+    		// mengambil data dari table absen sesuai pencarian data
+	
+		$absen = DB::table('absen')
+		->join('pegawai', 'IDPegawai', '=', 'pegawai.pegawai_id')
+		->select('absen.*', 'pegawai.pegawai_nama')
+		->distinct()
+		->where('pegawai_nama','like',"%".$cari."%")
+		->paginate();
+    		// mengirim data pegawai ke view index
+		return view('absen.index',['absen' => $absen]);
+ 
+	}
+	public function view($id)
+{
+	// mengambil data pegawai berdasarkan id yang dipilih
+	
+
+	$absen = DB::table('absen')
+		->join('pegawai', 'IDPegawai', '=', 'pegawai.pegawai_id')
+		->select('absen.*', 'pegawai.pegawai_nama')
+		->where('ID',$id)->get();
+	// passing data pegawai yang didapat ke view edit.blade.php
+	return view('absen.detail',['absen' => $absen]);
+
+}
 }

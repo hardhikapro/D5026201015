@@ -110,15 +110,9 @@
     </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " href="">
+    <a class="nav-link " href="/mobil">
       <i class="bi bi-grid"></i>
-      <span>Tugas Minggu Depan</span>
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link " href="">
-      <i class="bi bi-grid"></i>
-      <span>Praktikum</span>
+      <span>Praktikum (Mobil)</span>
     </a>
   </li><!-- End Dashboard Nav -->
 
