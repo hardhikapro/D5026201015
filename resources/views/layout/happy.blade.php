@@ -114,6 +114,12 @@
       <i class="bi bi-grid"></i>
       <span>Praktikum (Mobil)</span>
     </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="/karyawan1">
+      <i class="bi bi-grid"></i>
+      <span>EAS SOAL C3 (Karyawan1)</span>
+    </a>
   </li><!-- End Dashboard Nav -->
 
  
